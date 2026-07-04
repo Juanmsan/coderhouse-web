@@ -1,18 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: "Roboto", sans-serif;
 }
 
-h1 {
+.titulo {
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-p {
+.subtitulo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subsubtitulo {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.parrafo {
     font-size: 1rem;
     font-weight: 400;
 }
 
-a {
+.articulo {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.link {
     text-decoration: underline;
     font-style: italic;
     color: rgb(255, 5, 5);
@@ -35,7 +52,7 @@ header {
 }
 
 section {
-  background-color: var(--primary-color);
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
   margin: 1rem;
   padding: 1rem;
 }
