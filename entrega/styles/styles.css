@@ -7,8 +7,8 @@
 }
 
 :root {
-  --primary-color: hsl(0, 0%, 90%);
-  --secondary-color: hsl(0, 0%, 98%);
+  --primary-color: hsl(0, 0%, 100%);
+  --secondary-color: hsl(0, 0%, 90%);
   --text-color: rgb(0, 0, 0);
   --space-xs: 0.5rem;
   --space-sm: 1rem;
@@ -35,6 +35,13 @@ header {
   justify-content: space-between;
   align-items: center;
   gap: var(--space-sm);
+}
+
+.nav__logo {
+  display: flex;
+  width: 100px;
+  height: 100px;
+
 }
 
 .navbar ul {
